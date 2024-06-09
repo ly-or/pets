@@ -1,0 +1,22 @@
+/* #birdsimage{
+    width: 100px;
+} */
+
+li img{
+
+    width: 200px;
+}
+
+#birdslist{
+    padding: 0 !important;
+}
+
+
+input {
+  
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #cacaca;
+  }
+  

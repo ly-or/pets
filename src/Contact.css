@@ -1,0 +1,12 @@
+
+
+@media only screen and (max-width: 767px) {
+    #contact{
+
+        display: block;
+    }
+
+    .details{
+        width: 100%;
+    }
+  }

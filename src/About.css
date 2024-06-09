@@ -1,0 +1,24 @@
+@media only screen and (max-width: 767px) {
+    #about{
+
+        display: block;
+    }
+
+    .leftSide,.rightSide{
+        width: 100%;
+        margin: 5% 0 !important;
+    }
+  }
+
+  .rightSide img {
+    
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .leftSide{
+    margin: 0 5%;
+  }
+
+  

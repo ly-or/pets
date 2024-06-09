@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -34,5 +36,151 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.rightSide img {
+  
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px 0px #cdcdcd;
+}
+#menu ul, header{
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  
+  list-style-type: none;
+}
+
+#hero{
+  text-align: center;
+  padding: 30vh ;
+  background-image: url(/public/photo1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about{
+  display: flex;
+  justify-content: space-between;
+  margin: 5vw;
+
+}
+
+#contact, #animals{
+  display: flex;
+  justify-content: space-around;
+  margin: 5vw;
+
+
+}
+.leftSide,.rightSide{
+  width: 50%;
+  text-align: center;
+}
+li{
+  
+  margin: 1rem;
+
+}
+
+.details>div{
+  display: flex;
+  align-items: center;
+  margin: 2vh 0;
+  background-color: whitesmoke;
+  padding: 5%;
+  
+  word-break: break-word;
+
+}
+
+.details{
+  width: 25%;
+}
+.phone>img{
+width: auto;
+height: 50px;
+}
+.fa-solid{
+  font-size: 20px;
+  background-color: #12d8b4;
+  border-radius: 50px;
+  padding: 10%;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-solid:hover{
+  
+  background-color: #fff;
+  color: #12d8b4;
+}
+
+h5,p{
+  margin: 0;
+}
+
+.details>div>span{
+  margin-left: 5%;
+}
+
+form div{
+  width: 100%;
+}
+
+.form{
+  margin: 0 5%;
+}
+
+form input, textarea{
+  
+  border-radius: 5px;
+  border: 1px solid #111;
+  height: 20px;
+  width: 100%;
+  
+  padding: 3%;
+}
+
+#submit{
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #12d8b4;
+  cursor: pointer;
+}
+
+/* #animals{
+  display: flex;
+  justify-content: space-between;
+} */
+
+li{
+  list-style-type: none;
+  
+}
+
+.petslist{
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.petslist li{
+  
+  width: 27vw;
+}
+
+@media only screen and (min-width: 1024px) {
+  .petslist li{
+  
+    width: 17vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .petslist li{
+  
+    width: 47vw;
   }
 }
