@@ -4,7 +4,7 @@ import './Modal.css';
  
 function CatModal({ cat, onClose }) {
     useEffect(() => {
-        // Add event listener to close modal when clicking outside of it
+        // Event listener per te mbyllur popupin kur klikojme jashte
         const handleClickOutside = (event) => {
             if (!event.target.closest('.modal-content')) {
                 onClose();
@@ -13,7 +13,7 @@ function CatModal({ cat, onClose }) {
 
         document.addEventListener('mousedown', handleClickOutside);
 
-        // Cleanup function to remove event listener
+        // Funksion per te hequr event listener
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
