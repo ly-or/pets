@@ -1,3 +1,11 @@
 .fa-paw{
     font-size: 10vw;
 }
+
+#menu>li>a:-webkit-any-link{
+
+    font-size: 18px;
+    font-weight: 700;
+    
+
+}

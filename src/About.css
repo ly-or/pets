@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     #about{
 
         display: block;
@@ -12,13 +12,19 @@
 
   .rightSide img {
     
-    width: 100%;
-    height: 100%;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 20px 20px 0px 0px #FF9800;
 
   }
 
   .leftSide{
     margin: 0 5%;
+  }
+
+  #about{
+    
+    align-items: center;
   }
 
   
