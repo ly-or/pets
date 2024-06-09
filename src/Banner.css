@@ -1,0 +1,84 @@
+#hero{
+
+    display: flex;
+    align-items: center;
+    background-image: url(/public/bg-banner.webp);
+    background-size: 300px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: #fff6ed;
+    padding: 15vh 0;
+    
+    justify-content: space-evenly;
+    text-align: start;
+  
+}
+
+
+h6,h3{
+    margin: 5% 0;
+}
+h3{
+    color: #221956;
+    font-size: 3rem;
+    font-weight: 800;
+}
+h6{
+    color: #7c58d3;
+    font-size: 16px;
+}
+.hero-right>img{
+    width: 100%;    
+    max-width: 70%;
+    height: auto;
+}
+.hero-left,.hero-right{
+    width: 50%;
+}
+.hero-left{
+    padding: 0 0 0 10vw;
+}
+.btn-container{
+    padding: 2vh 0;
+}
+.btn-contact{
+    margin: 0 2vw;
+    background-color: transparent;
+    color: #7c58d3;
+
+}
+
+button{
+    cursor: pointer;
+    padding: 2% 5%;
+    border-radius: 30px;
+    border: 2px solid #7c58d3;
+    background-color: #7c58d3;
+    color: #fff;
+    font-weight: 600;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px 5px #fbe2ff ;
+}
+
+#best-place{
+    color: #f36c3e;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #hero{
+        display: contents;
+        }
+        .hero-left,.hero-right{
+            padding: 10vh 0;
+            text-align: center;
+        }
+    
+    
+    .hero-left>h3{
+        
+        font-size: 2rem;
+        }
+}

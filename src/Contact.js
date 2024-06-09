@@ -3,7 +3,10 @@ import './Contact.css'
 
 function Contact() {
     return (
+        <div>
+        <div className='contact-text'><h2>Contact Us</h2></div>
         <div id="contact">
+           
             <div className="details">
                 <div className="phone">
                     <i className="fa-solid fa-phone"></i>
@@ -54,6 +57,7 @@ function Contact() {
                     </div>
                 </form>
             </div>
+        </div>
         </div>
     );
 }

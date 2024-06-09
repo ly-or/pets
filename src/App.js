@@ -1,40 +1,3 @@
-
-// import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import './App.css';
-// import Header from './Header';
-// import Banner from './Banner';
-// import About from './About';
-// import Contact from './Contact';
-// import Cats from './Cats';
-// import Dogs from './Dogs';
-// import Birds from './Birds';
-
-// function App() {
-
-
-//     return (
-//         <div id="main">
-//           <Router>
-//             <Header />
-//             <Routes>
-//                 <Route path="/cats" element={<Cats />} />
-//                 <Route path="/dogs" element={<Dogs />} />
-//                 <Route path="/birds" element={<Birds />} />
-//             </Routes>
-          
-
-//             <Banner />
-//             <About />
-//             <Contact />
-//             </Router>
-//         </div>
-//     );
-// }
-
-// export default App;
-
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -62,9 +25,6 @@ function App() {
   }
 
 export default App;
-
-
-
 
 
 const HomePage = () => (

@@ -1,4 +1,4 @@
-
+/* 
 
 .App {
   text-align: center;
@@ -37,27 +37,20 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  font-family: Poppins;
+  text-decoration-line: none;
 }
-.rightSide img {
-  
-  border-radius: 20px;
-  box-shadow: 20px 20px 20px 0px #cdcdcd;
-}
+
 #menu ul, header{
   display: flex;
   justify-content: space-between;  
   align-items: center;
-  
   list-style-type: none;
-}
+  background-color: #ffecd8;
 
-#hero{
-  text-align: center;
-  padding: 30vh ;
-  background-image: url(/public/photo1.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #about{
@@ -81,6 +74,8 @@
 li{
   
   margin: 1rem;
+  
+  font-weight: 700;
 
 }
 
@@ -90,6 +85,7 @@ li{
   margin: 2vh 0;
   background-color: whitesmoke;
   padding: 5%;
+  border-radius: 10px;
   
   word-break: break-word;
 
@@ -104,7 +100,7 @@ height: 50px;
 }
 .fa-solid{
   font-size: 20px;
-  background-color: #12d8b4;
+  background-color: #673ab7;
   border-radius: 50px;
   padding: 10%;
   color: #fff;
@@ -114,7 +110,7 @@ height: 50px;
 .fa-solid:hover{
   
   background-color: #fff;
-  color: #12d8b4;
+  color: #673ab7;
 }
 
 h5,p{
@@ -147,7 +143,9 @@ form input, textarea{
   width: 100%;
   height: 40px;
   border: none;
-  background-color: #12d8b4;
+  background-color: #f36c3e;
+  color: #fff;
+  font-weight: 700;
   cursor: pointer;
 }
 

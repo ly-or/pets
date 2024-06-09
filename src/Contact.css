@@ -10,3 +10,19 @@
         width: 100%;
     }
   }
+
+
+  .contact-text{
+
+    padding: 2vh;
+    font-size: 2rem;
+
+  }
+
+
+  #contact{
+    background: rgb(227,218,250);
+background: linear-gradient(201deg, rgba(227,218,250,1) 11%, rgba(255,255,255,1) 100%);
+    border-radius: 1rem;
+    padding: 10vh 2vw;
+  }

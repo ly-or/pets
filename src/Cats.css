@@ -18,3 +18,11 @@ input {
   div:first-child{
     text-align: center;
   }
+
+  .petslist>li{
+    transition: transform .2s;
+    cursor: pointer;
+  }
+  .petslist>li:hover{
+    transform: scale(1.2);
+  }
